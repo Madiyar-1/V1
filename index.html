@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator football">
+        <h1>Football Calculator</h1>
+        <label for="football-achievements">Sporting Achievements:</label>
+        <input type="number" id="football-achievements" min="0" placeholder="Points for achievements">
+
+        <label for="football-age">Age:</label>
+        <input type="number" id="football-age" min="0" placeholder="Age">
+
+        <label for="football-contracts">Contract Obligations:</label>
+        <input type="number" id="football-contracts" min="0" placeholder="Points for contracts">
+
+        <label for="football-popularity">Popularity and Marketing:</label>
+        <input type="number" id="football-popularity" min="0" placeholder="Points for popularity">
+
+        <label for="football-transfer">Transfer Market:</label>
+        <input type="number" id="football-transfer" min="0" placeholder="Points for transfer market">
+
+        <label for="football-economic">Economic and Financial Factors:</label>
+        <input type="number" id="football-economic" min="0" placeholder="Points for economic factors">
+
+        <label for="football-coaching">Coaching and Managerial Factors:</label>
+        <input type="number" id="football-coaching" min="0" placeholder="Points for coaching factors">
+
+        <label for="football-health">Health and Injuries:</label>
+        <input type="number" id="football-health" min="0" placeholder="Points for health">
+
+        <button onclick="calculatePrice('football')">Calculate Price</button>
+        <div class="result"></div>
+    </div>
+
+    <div class="calculator basketball">
+        <h1>Basketball Calculator</h1>
+        <label for="basketball-skills">Skills and Abilities:</label>
+        <input type="number" id="basketball-skills" min="0" placeholder="Points for skills">
+
+        <label for="basketball-experience">Experience:</label>
+        <input type="number" id="basketball-experience" min="0" placeholder="Experience">
+
+        <label for="basketball-age">Age:</label>
+        <input type="number" id="basketball-age" min="0" placeholder="Age">
+
+        <label for="basketball-position">Player's Position:</label>
+        <input type="number" id="basketball-position" min="0" placeholder="Points for position">
+
+        <label for="basketball-health">Health and Injuries:</label>
+        <input type="number" id="basketball-health" min="0" placeholder="Points for health">
+
+        <label for="basketball-contracts">Contract Obligations:</label>
+        <input type="number" id="basketball-contracts" min="0" placeholder="Points for contracts">
+
+        <label for="basketball-coaching">Coaching Factor:</label>
+        <input type="number" id="basketball-coaching" min="0" placeholder="Points for coaching factor">
+
+        <label for="basketball-transfer">Transfer Market and Economics:</label>
+        <input type="number" id="basketball-transfer" min="0" placeholder="Points for transfer market">
+
+        <button onclick="calculatePrice('basketball')">Calculate Price</button>
+        <div class="result"></div>
+    </div>
+
+    <div class="calculator singer">
+        <h1>Singer Calculator</h1>
+        <label for="singer-popularity">Popularity and Reputation:</label>
+        <input type="number" id="singer-popularity" min="0" placeholder="Popularity points">
+
+        <label for="singer-experience">Experience and Achievements:</label>
+        <input type="number" id="singer-experience" min="0" placeholder="Experience points">
+
+        <label for="singer-genre">Music Genre:</label>
+        <input type="number" id="singer-genre" min="0" placeholder="Points for music genre">
+
+        <label for="singer-duration">Performance Duration:</label>
+        <input type="number" id="singer-duration" min="0" placeholder="Points for performance duration">
+
+        <label for="singer-region">Region of Concert:</label>
+        <input type="number" id="singer-region" min="0" placeholder="Points for region">
+
+        <label for="singer-event">Event and Venue:</label>
+        <input type="number" id="singer-event" min="0" placeholder="Points for event and venue">
+
+        <label for="singer-requirements">Additional Requirements:</label>
+        <input type="number" id="singer-requirements" min="0" placeholder="Points for requirements">
+
+        <label for="singer-contract">Contract Specifications:</label>
+        <input type="number" id="singer-contract" min="0" placeholder="Points for contract specifications">
+
+        <button onclick="calculatePrice('singer')">Calculate Price</button>
+        <div class="result"></div>
+    </div>
+
+    <div id="aktien">
+        <button onclick="convertToAktien()">Convert to Aktien</button>
+        <div id="aktien-result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>                                                    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
